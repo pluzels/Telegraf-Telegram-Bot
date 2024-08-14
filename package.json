@@ -1,0 +1,35 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot using Telegraf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@xct007/frieren-scraper": "^0.0.2",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.10",
+    "child-process": "^1.0.2",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.22.12",
+    "node-fetch": "^2.6.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "qs": "^6.12.1",
+    "play-dl": "^1.9.7",
+    "pm2": "^5.3.1",
+    "sharp": "^0.32.6",
+    "similarity": "^1.2.1",
+    "stream": "^0.0.2",
+    "telegraf": "^4.16.3",
+    "util": "^0.12.5",
+    "yt-search": "^2.11.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "author": "galih",
+  "license": "ISC"
+}
