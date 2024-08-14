@@ -49,7 +49,7 @@ module.exports = (bot, availableCommands) => {
     const replyToMessageId = ctx.message.message_id; // Mendapatkan ID pesan yang ingin di-reply
 
     if (!inputText) {
-      ctx.reply('Halo, aku adalah ChatGPT 4. Untuk menggunakan, ketik \n\nContoh: /gpt4 hallo');
+      ctx.reply('Halo, aku adalah ChatGPT 4. Untuk menggunakan, ketik \n\nContoh: /gpt4 hello');
       return;
     }
 
