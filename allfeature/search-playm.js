@@ -1,6 +1,6 @@
 module.exports = (bot, availableCommands) => {
   const commandName = 'playm'; // Nama command yang didaftarkan
-  availableCommands.push({ command: commandName, tags: ['downloader', 'music'] }); // Tambahkan commandName ke dalam daftar availableCommands dengan tag downloader dan music
+  availableCommands.push({ command: commandName, tags: ['search'] }); // Tambahkan commandName ke dalam daftar availableCommands dengan tag downloader dan music
 
   bot.command(commandName, async (ctx) => {
     const message = ctx.message.text;
